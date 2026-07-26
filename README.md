@@ -133,3 +133,29 @@ Organizations remain responsible for validating all configurations, scripts, rec
 The Secure Purview Baseline Starter Kit should be tested in a non-production environment and reviewed by appropriately authorized technical, security, compliance, privacy, and legal stakeholders before production deployment.
 
 Neither the author nor Microsoft accepts responsibility for loss, damage, service interruption, compliance outcomes, security incidents, or other consequences resulting from the use, modification, or interpretation of this material.
+
+# Change Log
+
+## Version 1.0 – Initial Release
+**Release Date:** 26 July 2026
+
+This release represents the initial public version of the Secure Purview Baseline Starter Kit.
+
+### Included in this Release
+
+- Initial sensitivity label taxonomy based on a secure-by-default design approach.
+- Organization-wide label publishing policy with mandatory labeling, default labels, and downgrade justification.
+- Baseline Microsoft Purview Data Loss Prevention (DLP) framework covering common information protection scenarios.
+- Endpoint DLP baseline including protection for removable media, cloud uploads, and unmanaged applications.
+- Unlabeled-to-USB protection policy enabled by default.
+- Microsoft Purview Message Encryption integration for encrypted sensitivity labels.
+- Insider Risk Management baseline consisting of Data Leaks, Data Theft by Departing Users, and Priority User monitoring scenarios.
+- Adaptive Protection integration for risk-based endpoint control enforcement.
+- Automated tenant enablement and platform preparation capabilities where supported by licensing and available management interfaces.
+- Comprehensive deployment documentation and implementation guidance.
+
+### Release Notes
+
+Version 1.0 establishes the foundational architecture and deployment model for the Secure Purview Baseline Starter Kit. The objective of this initial release is to provide organizations with a practical starting point for Microsoft Purview adoption while reducing implementation complexity and accelerating time to value.
+
+Future releases will incorporate community feedback, operational lessons learned, platform enhancements, documentation improvements, and support for newly available Microsoft Purview capabilities.
