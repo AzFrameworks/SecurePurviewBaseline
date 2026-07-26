@@ -105,3 +105,31 @@ The Secure Purview Baseline Starter Kit should be implemented using a phased val
 Once validated, organizations should review policy outcomes, analyze alert volumes, assess false positives, onboard endpoint devices, and complete all remaining tenant-specific configuration activities. Only after business stakeholders, security teams, compliance personnel, and operational owners have accepted the resulting behaviour should enforcement actions be introduced.
 
 The Starter Kit is intended to accelerate adoption, not eliminate governance. Organizations remain responsible for validating the framework against their own legal, regulatory, privacy, and business requirements.
+
+# Invitation to Contribute
+
+The Secure Purview Baseline Starter Kit was developed to provide organizations with a practical, implementation-ready starting point for Microsoft Purview deployments. The framework, supporting scripts, and deployment logic have been tested across multiple Microsoft Purview laboratory environments and a variety of implementation scenarios.
+
+While extensive testing has been performed, no baseline can anticipate every possible tenant configuration, licensing combination, integration dependency, regional variation, or operational requirement that may exist in real-world environments. As the Starter Kit is adopted by a wider audience, previously unidentified edge cases, configuration inconsistencies, or deployment challenges may emerge.
+
+Community feedback is therefore highly encouraged and greatly appreciated.
+
+If you encounter unexpected behaviour, deployment issues, inconsistencies, documentation gaps, or opportunities for improvement, please consider opening an issue or submitting a contribution. Feedback obtained through real-world deployments helps improve the reliability, accuracy, and operational value of the Starter Kit for all users.
+
+Suggestions are equally welcome. Whether the recommendation relates to sensitivity labels, DLP controls, Endpoint DLP, Insider Risk Management, Adaptive Protection, deployment automation, documentation, or implementation guidance, constructive input helps ensure that the framework continues to evolve alongside Microsoft Purview capabilities and industry best practices.
+
+The goal of this project is not only to provide a starting baseline, but also to foster a collaborative community effort that continuously improves the quality, usability, and effectiveness of the solution. Contributions of all sizes, from documentation corrections and bug reports to feature suggestions and code enhancements, are welcome.
+
+Thank you for helping make the Secure Purview Baseline Starter Kit better for everyone.
+
+# Disclaimer
+
+The Secure Purview Baseline Starter Kit was authored by Daniel Metzger in an individual professional capacity. Although the author is an employee of Microsoft, this project is not an official Microsoft product, publication, support statement, commitment, or endorsement.
+
+The content is based on publicly available Microsoft documentation, implementation experience, and independent research. It is provided for informational and planning purposes only and is subject to change as Microsoft products, services, licensing models, and technical capabilities evolve.
+
+Organizations remain responsible for validating all configurations, scripts, recommendations, and deployment activities against current Microsoft documentation, licensing requirements, security requirements, privacy obligations, compliance mandates, and internal governance standards before implementation.
+
+The Secure Purview Baseline Starter Kit should be tested in a non-production environment and reviewed by appropriately authorized technical, security, compliance, privacy, and legal stakeholders before production deployment.
+
+Neither the author nor Microsoft accepts responsibility for loss, damage, service interruption, compliance outcomes, security incidents, or other consequences resulting from the use, modification, or interpretation of this material.
