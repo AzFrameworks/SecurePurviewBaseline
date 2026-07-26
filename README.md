@@ -8,8 +8,6 @@ The Starter Kit combines sensitivity labels, Data Loss Prevention (DLP), Endpoin
 
 The objective is not to provide a final production design, but instead to establish a well-structured baseline from which organizations can begin their Microsoft Purview journey with confidence.
 
----
-
 # Design Philosophy
 
 The Secure Purview Baseline Starter Kit is built around the Microsoft "Secure by Default" principle. Traditional information protection programs often begin with limited protection and gradually introduce more controls over time. This approach places the burden of classification and protection decisions on end users and frequently results in inconsistent protection levels across the organization.
@@ -17,8 +15,6 @@ The Secure Purview Baseline Starter Kit is built around the Microsoft "Secure by
 The Starter Kit takes the opposite approach. Protection is applied by default and users are guided through the process of working with protected information. Classification becomes the standard operating model rather than an exception. This significantly reduces the likelihood of sensitive information remaining unprotected while creating a more predictable user experience.
 
 The framework also emphasizes operational simplicity. Wherever possible, a single policy, a single taxonomy, and a single governance model are preferred over multiple overlapping configurations. This reduces administrative overhead, simplifies troubleshooting, and makes future expansion easier.
-
----
 
 # Solution Architecture
 
@@ -33,8 +29,6 @@ The third layer establishes organization-wide publishing policies that deliver a
 The fourth layer delivers Data Loss Prevention capabilities across Microsoft 365 workloads and managed endpoints. These controls help prevent accidental or intentional disclosure of sensitive information through sharing, messaging, printing, removable media, cloud applications, and other common exfiltration channels.
 
 The final layer introduces risk-aware protection through Insider Risk Management and Adaptive Protection. These capabilities allow security controls to adapt dynamically based on user behavior and organizational risk indicators.
-
----
 
 # Sensitivity Label Strategy
 
@@ -56,8 +50,6 @@ A key design principle of the taxonomy is that all Highly Confidential content r
 
 The taxonomy is intentionally compact. Experience has shown that excessive numbers of labels often create user confusion while delivering little additional security value. The Starter Kit focuses on a practical balance between security, usability, and operational consistency.
 
----
-
 # Label Publishing and User Experience
 
 The baseline adopts a single organization-wide publishing policy. Every user receives the same classification choices, the same default labels, and the same protection experience.
@@ -67,8 +59,6 @@ Documents automatically receive a Confidential classification by default, ensuri
 Mandatory labeling is enabled throughout the environment. Users are required to classify content before it can be saved or shared, helping organizations build a culture of information protection. If a user attempts to lower the sensitivity of content, a business justification is required. This creates accountability while generating audit records that can support compliance and investigation activities.
 
 By maintaining a single publishing model across all workloads, the baseline minimizes administrative complexity and avoids the inconsistent user experiences that often emerge when multiple overlapping policies are introduced.
-
----
 
 # Data Loss Prevention Strategy
 
@@ -80,8 +70,6 @@ Most policies are initially deployed in monitoring mode with user notifications 
 
 The framework deliberately reserves organization-specific decisions such as approved partner domains, exception handling, incident ownership, and regulatory customization for later implementation phases.
 
----
-
 # Endpoint Data Loss Prevention
 
 Information protection requirements increasingly extend beyond cloud workloads and into endpoint devices. For this reason, Endpoint DLP forms a significant part of the baseline.
@@ -92,8 +80,6 @@ A particularly important safeguard within the baseline prevents unlabeled files 
 
 Successful Endpoint DLP deployment requires device onboarding, policy validation, approved application definitions, cloud destination configuration, and operational monitoring. These activities remain part of the organization's implementation responsibilities following deployment.
 
----
-
 # Message Encryption
 
 Message Encryption is integrated directly into the sensitivity label architecture. Rather than presenting users with a separate encryption platform, the experience is delivered through classification labels that automatically apply the required protection settings.
@@ -101,8 +87,6 @@ Message Encryption is integrated directly into the sensitivity label architectur
 When encrypted labels are selected, access rights are enforced through Microsoft Purview Information Protection technologies. Users can collaborate with internal and external recipients while maintaining control over access to protected content.
 
 The baseline provides secure collaboration patterns for named recipients and highly sensitive communications while leaving branding, legal disclaimers, and specialized encryption templates for later business-specific customization.
-
----
 
 # Insider Risk Management and Adaptive Protection
 
@@ -114,8 +98,6 @@ Adaptive Protection extends this capability by connecting risk signals directly 
 
 This combination enables organizations to move beyond static information protection and toward a more context-aware protection model that incorporates both user actions and organizational risk indicators.
 
----
-
 # Production Adoption Approach
 
 The Secure Purview Baseline Starter Kit should be implemented using a phased validation methodology. All controls should initially be deployed within a non-production environment where behaviour, licensing requirements, protection outcomes, and operational impacts can be verified.
@@ -123,11 +105,3 @@ The Secure Purview Baseline Starter Kit should be implemented using a phased val
 Once validated, organizations should review policy outcomes, analyze alert volumes, assess false positives, onboard endpoint devices, and complete all remaining tenant-specific configuration activities. Only after business stakeholders, security teams, compliance personnel, and operational owners have accepted the resulting behaviour should enforcement actions be introduced.
 
 The Starter Kit is intended to accelerate adoption, not eliminate governance. Organizations remain responsible for validating the framework against their own legal, regulatory, privacy, and business requirements.
-
----
-
-# Conclusion
-
-The Secure Purview Baseline Starter Kit provides a comprehensive starting point for Microsoft Purview deployments by combining information protection, data loss prevention, endpoint controls, encryption, risk management, and adaptive enforcement into a single integrated framework.
-
-By following a secure-by-default philosophy and prioritizing operational simplicity, the Starter Kit enables organizations to establish meaningful protection quickly while retaining the flexibility to evolve their controls as security maturity, business requirements, and regulatory obligations change.
