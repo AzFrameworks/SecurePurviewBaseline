@@ -4,7 +4,7 @@
 
 The Secure Purview Baseline Starter Kit is an implementation-ready framework designed to accelerate the deployment of Microsoft Purview information protection and data loss prevention capabilities. It provides a practical starting point for organizations that want to establish a secure-by-default data protection posture across Microsoft 365 while minimizing initial design effort and reducing implementation complexity.
 
-For implementation details, follow the guide here: https://github.com/AzFrameworks/SecurePurviewBaseline/blob/main/Purview%20Starter%20Kit%20-%20Layered%20Implementation%20Guide%20-%20Beginner%20Edition.pdf
+For implementation details, follow the guide here: [Secure Purview Starter Kit Implementation Guide](https://github.com/AzFrameworks/SecurePurviewBaseline/blob/main/Purview%20Starter%20Kit%20-%20Layered%20Implementation%20Guide%20-%20Beginner%20Edition.pdf)
 
 ![Endpoint Protection](/graphics/SecPurview%20Endpoint%20Protection.png)
 
