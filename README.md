@@ -4,6 +4,10 @@
 
 The Secure Purview Baseline Starter Kit is an implementation-ready framework designed to accelerate the deployment of Microsoft Purview information protection and data loss prevention capabilities. It provides a practical starting point for organizations that want to establish a secure-by-default data protection posture across Microsoft 365 while minimizing initial design effort and reducing implementation complexity.
 
+For implementation details, follow the guide here: https://github.com/AzFrameworks/SecurePurviewBaseline/blob/main/Purview%20Starter%20Kit%20-%20Layered%20Implementation%20Guide%20-%20Beginner%20Edition.pdf
+
+![Endpoint Protection](/graphics/SecPurview%20Endpoint%20Protection.png)
+
 The Starter Kit combines sensitivity labels, Data Loss Prevention (DLP), Endpoint DLP, Message Encryption, Insider Risk Management, and Adaptive Protection into a single coherent baseline. Rather than requiring organizations to design every control from first principles, the framework provides a validated foundation that can be tested, refined, and extended to meet individual business, regulatory, and compliance requirements.
 
 The objective is not to provide a final production design, but instead to establish a well-structured baseline from which organizations can begin their Microsoft Purview journey with confidence.
@@ -159,3 +163,16 @@ This release represents the initial public version of the Secure Purview Baselin
 Version 1.0 establishes the foundational architecture and deployment model for the Secure Purview Baseline Starter Kit. The objective of this initial release is to provide organizations with a practical starting point for Microsoft Purview adoption while reducing implementation complexity and accelerating time to value.
 
 Future releases will incorporate community feedback, operational lessons learned, platform enhancements, documentation improvements, and support for newly available Microsoft Purview capabilities.
+
+## Version 1.1 – Endpoint Protection Extension
+**Release Date:** 14 November 2026
+
+This release makes it easier to extend the Secure Purview Baseline Starter Kit from the initial Purview foundation to endpoint protection.
+
+### Added in this Release
+
+- Added three new scripts to automate Endpoint DLP configuration.
+- Simplified the transition from the initial Purview baseline to endpoint protection.
+- Reduced manual configuration steps for administrators.
+- Improved deployment consistency by automating repeatable Endpoint DLP tasks.
+- Made the Endpoint DLP implementation layer easier to deploy, validate, and maintain.
