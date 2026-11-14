@@ -80,6 +80,8 @@ The framework deliberately reserves organization-specific decisions such as appr
 
 Information protection requirements increasingly extend beyond cloud workloads and into endpoint devices. For this reason, Endpoint DLP forms a significant part of the baseline.
 
+![Endpoint Protection Components](/graphics/SecPurview%20Endpoint%20Protection%20Components.png)
+
 The Starter Kit provides controls to help prevent sensitive information from being transferred through removable media, Bluetooth devices, network locations, cloud services, and unapproved applications. These controls help extend Microsoft Purview protections to user devices while maintaining visibility and governance across data movement activities.
 
 A particularly important safeguard within the baseline prevents unlabeled files from being copied to removable media. Because the rule relies on the easily understood condition of "unlabeled content," it can typically be enabled immediately while broader DLP policies remain in monitoring mode.
