@@ -38,6 +38,8 @@ The final layer introduces risk-aware protection through Insider Risk Management
 
 The Starter Kit implements a streamlined sensitivity label taxonomy that reflects common enterprise requirements while remaining simple enough for broad adoption.
 
+![Label Taxonomy](/graphics/SecPurview%20Label%20Taxonomy.png)
+
 The taxonomy is built around five primary classifications:
 
 | Classification | Purpose |
