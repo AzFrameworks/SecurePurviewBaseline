@@ -1,0 +1,15 @@
+SHA256                                                           File
+---------------------------------------------------------------- ------------------------------------------------
+bbcf54b08ee97c89568ca3fd71aa9a8746f6c16c19b622f55175d17e08f38a36 Add-CloudStorageDomainsToDlpGroups.ps1
+b882419246589684d51707a80e39116abfb00eb5b8827a647ccd28eecdc27cc3 Add-WebmailDomainsToDlpGroups.ps1
+5b7ca2ed9696409825d679895068e1dcce27240ef93b7f3d2084f4c26cd1b6fb Deploy-CT-EDLP-EgressControl.ps1
+bc9983227489181bd59f91c1ec022e29fcb6d3ffa426495c46f0c7a3c82eac27 Purview Starter Kit - Layered Implementation Guide - Beginner Edition.pdf
+776d68454b64faaedb2e5354f2ca2066325165827718eb2ff18bc6e296fa390b README.md
+076377f51092f30024c12856dcab2adb6b48eb5ffd6b6d930a10557de61d2fad cloudstorage_group1_global.txt
+d26cc0b61f35e5ad53e070de7b2a77da7f7dbb956bf78d125e3cb22ec01be019 cloudstorage_group2_regional_hosting.txt
+1a4fd13729074e3f57bc5267f28a6b23b9d768fd24db5ac469b8559f5a7ecb69 graphics/SecPurview Endpoint Protection Components.png
+90a6c1afe6c61314c5c43f2bcce12bef7eb6249ad2955c6dc5b6828acb8810e5 graphics/SecPurview Endpoint Protection.png
+60c3a3dcf422168501b39e5deeedbd6be182be45a06d516fb63b89abe2ba545f graphics/SecPurview Label Taxonomy.png
+83101a8cf10b84024d74767d3192fa1414c7165f1c6e3c1b2f9559352797cbb3 hash_sha256_value.txt
+fe317f85eee36f35b73389232a7c064dfe4ff88b07a91f1d3f9577730a42f999 webmail_group1_global_privacy.txt
+2f9d78fd4238c682e757b55e1dcde82b8c9078402c1b66e4eec773ac81650aea webmail_group2_regional.txt
