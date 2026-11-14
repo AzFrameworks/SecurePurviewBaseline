@@ -6,7 +6,7 @@ The Secure Purview Baseline Starter Kit is an implementation-ready framework des
 
 For implementation details, follow the guide here: [Secure Purview Starter Kit Implementation Guide](https://github.com/AzFrameworks/SecurePurviewBaseline/blob/main/Purview%20Starter%20Kit%20-%20Layered%20Implementation%20Guide%20-%20Beginner%20Edition.pdf)
 
-![Endpoint Protection](/graphics/SecPurview%20Endpoint%20Protection.png)
+![Endpoint Protection](/graphics/SecPurview%20Endpoint%20Protection%20Components.png)
 
 The Starter Kit combines sensitivity labels, Data Loss Prevention (DLP), Endpoint DLP, Message Encryption, Insider Risk Management, and Adaptive Protection into a single coherent baseline. Rather than requiring organizations to design every control from first principles, the framework provides a validated foundation that can be tested, refined, and extended to meet individual business, regulatory, and compliance requirements.
 
