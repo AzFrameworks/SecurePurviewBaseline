@@ -824,17 +824,34 @@ $resolvedWebmailGroups = @{}
 
 function New-LabelConditionJson {
     # Builds AdvancedRule JSON for Exchange DLP policies (CT-EDLP-11).
-    # Uses ContentIsNotLabeled=false ("content IS labeled, any label") as a broad condition.
-    # AccessScope is added for CT-EDLP-11 to scope to external recipients only.
+    # ContentContainsSensitiveLabel / hasSensitivityLabel are absent from the DlpCondition enum.
+    # The correct approach (confirmed from portal export) is ContentContainsSensitiveInformation
+    # with a Groups/Labels structure — the same enum member used for SITs, but with Labels[] instead
+    # of sensitivetypes[]. AccessScope scopes the rule to external recipients only.
     param(
         [string[]]$Guids,
         [string]$Scope = ''
     )
 
+    $labelEntries = @($Guids | ForEach-Object {
+        [PSCustomObject]@{ Name = $_; Id = $_; Type = 'Sensitivity' }
+    })
+
     $subConditions = [System.Collections.Generic.List[object]]::new()
     $subConditions.Add([PSCustomObject]@{
-        ConditionName = 'ContentIsNotLabeled'
-        Value         = $false
+        ConditionName = 'ContentContainsSensitiveInformation'
+        Value         = @(
+            [PSCustomObject]@{
+                Groups   = @(
+                    [PSCustomObject]@{
+                        Name     = 'Sensitivity Labels'
+                        Operator = 'Or'
+                        Labels   = $labelEntries
+                    }
+                )
+                Operator = 'And'
+            }
+        )
     })
 
     if ($Scope -ne '') {
@@ -853,7 +870,7 @@ function New-LabelConditionJson {
         }
     }
 
-    return ($root | ConvertTo-Json -Depth 10 -Compress)
+    return ($root | ConvertTo-Json -Depth 50 -Compress)
 }
 
 function New-EndpointLabelConditionJson {
